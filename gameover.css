@@ -1,0 +1,70 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+
+  body{
+    background-image:url(https://images.unsplash.com/photo-1574390353491-92705370c72e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWF6ZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: 100%;
+    position: fixed;
+}
+
+.Score{
+    font-family: 'Rubik', sans-serif; 
+    margin-left: 97vh;
+    color: white;
+   
+  }
+
+  .nos{
+    font-family: 'Rubik', sans-serif;
+    position:absolute;
+    top: 70px;
+    margin-left: 101vh;
+    color:white;
+  }
+
+  .timeup{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 97vh;
+    margin-top:8vh;
+    color: white;
+  }
+  .Gameover{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 88vh;
+    margin-bottom: 150vh;
+    color:white;
+}
+
+.playagain{
+  font-family: 'Rubik', sans-serif;
+  position: absolute;
+    margin-left:90vh;
+    text-align: center;
+    opacity: 0.7;
+   top: 50vh;
+}
+
+a {
+  text-decoration: none;
+  color: #333; /* Set your desired color */
+}
+
+.exit{
+    bottom: 120vh;
+    position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            z-index: 1; /* Higher z-index brings the element to the top */
+            opacity: 0.7;
+            margin-left: 100vh;
+            margin-top: 50vh;
+            border-radius: 20px;
+}
+
+button{
+  padding:30px 30px;
+  border-color: rgb(14, 12, 10);
+}
+

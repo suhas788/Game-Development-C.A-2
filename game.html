@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="Time">
+            <h3>Time</h3>
+            Time: <span id="timer">60</span> seconds
+        </div>
+        
+        <div class="Score">
+            <h3>Username</h3>
+            Score: <span id="score">7</span>
+        </div>
+    </div>       
+    <script src="score.js"></script>
+
+    <div id="container">
+        <div class="mbox">
+        <div id="maze">
+            <div id="thingie">
+                <div class="emo" id="emo">🥺</div>
+            </div>
+            <div id="home">
+                <div class="emo">🏠</div>
+            </div>
+            <div class="barrier" id="top"></div>
+            <div class="barrier" id="bottom"></div>
+        </div>
+            </div>
+        <div class="controls">
+            <div class="buttons">
+                <button class="btn" id="bu"><div class="chevron">↑</div></button>
+                <button class="btn" id="bd"><div class="chevron">↓</div></button>
+                <button class="btn" id="bl"><div class="chevron">←</div></button>
+                <button class="btn" id="br"><div class="chevron">→</div></button>
+<div class="exit">
+                <button><a href="./gameover.html">Exit▶</a></button></h3>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="backgroundMusic" loop>
+        <source src="gamemusic-6082.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="timer">00:60
+    </div>
+    
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

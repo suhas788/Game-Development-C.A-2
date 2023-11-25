@@ -1,0 +1,66 @@
+ @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&family=Saira+Extra+Condensed&family=Saira+Semi+Condensed&display=swap');
+
+body {
+   font-family: 'Arial', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f0f0f0;
+   font-family: 'Gabarito', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Saira Extra Condensed', sans-serif;
+   font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+header {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 1em 0;
+}
+
+main {
+   max-width: 800px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+   color: #fcfafa;
+}
+
+h2{
+   color: #333;
+}
+
+section {
+   margin-bottom: 20px;
+}
+
+ol {
+   padding-left: 20px;
+}
+
+footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 1em 0;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+}
+
+button{
+   margin-left: 90vh;
+   padding: 10px 20px;
+}
+
+a{
+   color:black;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Saira Extra Condensed', sans-serif;
+   font-family: 'Saira Semi Condensed', sans-serif;
+}
